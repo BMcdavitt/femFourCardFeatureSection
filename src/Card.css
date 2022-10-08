@@ -1,0 +1,51 @@
+.Card {
+    background-color: #fff;
+
+    width: 310px;
+    height: 220px;
+
+    margin: 12px auto;
+
+    border-radius: 10px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    overflow: hidden;
+
+    text-align: left;
+}
+
+.colorStripe {
+    /* background-color: blue; */
+    width: 100%;
+    height: 4px;
+
+}
+
+.Card h3 {
+    margin: 30px 20px 6px 20px;
+}
+
+.Card p {
+    font-size: 13px;
+    margin: 6px 20px;
+}
+
+.Card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+img {
+display: block;
+
+height: 60px;
+width: 60px;
+margin: auto 30px 30px auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .Card {
+        width: 350px;
+
+    }
+}

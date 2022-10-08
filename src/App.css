@@ -1,38 +1,80 @@
 .App {
   text-align: center;
+  width: 340px;
+  margin: auto;
+
+  padding: 35px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardHolder {
+  display: grid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  margin: 0;
+  font-weight: 200;
+  font-size: 24px;
+
+  margin: 6px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+
+  margin: 6px;
+}
+
+p {
+  margin: 20px 20px 65px 20px;
+  font-weight: 200;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+}
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    width: 1200px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1 {
+    font-size: 36px;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  p {
+    width: 500px;
+    margin: 24px auto;
+    font-weight: 400;
+  }
+
+  .cardHolder {
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(4, 120px);
+  }
+
+  #card1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+
+  #card2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+
+  #card3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+  }
+
+  #card4 {
+    grid-column: 2/ 3;
+    grid-row: 3 / 5;
   }
 }
