@@ -1,11 +1,16 @@
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   background-color: #fafafa;
   color: hsl(234, 12%, 34%);
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 

@@ -38,16 +38,16 @@ p {
     width: 43.5rem;
   }
 
-  .card h1 {
+  h1 {
     font-size: 2.25rem;
   }
 
-  .card h2 {
+  h2 {
     font-size: 2.25rem;
     font-weight: 600;
   }
 
-  .card p {
+  p {
     width: 31.25rem;
     margin: 1.5rem auto;
     font-weight: 400;
